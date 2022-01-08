@@ -1218,7 +1218,7 @@ contract CandyMachine is Ownable, ERC721Enumerable, ReentrancyGuard {
   }
 
 
-  string private _baseTokenURI = 'https://gateway.pinata.cloud/ipfs/QmeVk1pmqk2vKoMiNmEhyax6f2ybQD2XQivw6MAuPmxYdm';
+  string private _baseTokenURI = 'https://gateway.pinata.cloud/ipfs/QmRQvXPTfXTpNJtzaKCHuZHDgvHtWyeTX7ysqcpMQgmDgc?preview=1';
 
   function _baseURI() internal view virtual override returns (string memory) {
     return _baseTokenURI;
